@@ -42,7 +42,6 @@ function Accordion({ jsonData }) {
     );
   } else {
     {
-      console.log('test');
       return <div style={childDivStyle}>{jsonData.title}</div>;
     }
   }
